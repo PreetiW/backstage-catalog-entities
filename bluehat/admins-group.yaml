@@ -8,3 +8,12 @@ spec:
   parent: bluehat-corp
   children: []
 ---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jkilzi
+  namespace: bluehat
+spec:
+  profile:
+    email: jkilzi@redhat.com
+  memberOf: [admins]
