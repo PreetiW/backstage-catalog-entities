@@ -2,8 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: dummy-corp
-  namespace: dummy-corp
+  name: bluehat
+  namespace: bluehat
 spec:
   targets:
     - ./groups.yaml
