@@ -1,1 +1,10 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: admins
+  namespace: bluehat
+spec:
+  type: team
+  parent: bluehat-corp
+  children: []
+---
