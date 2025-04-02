@@ -6,5 +6,5 @@ metadata:
   namespace: bluehat
 spec:
   targets:
-    - ./groups.yaml
-    - ./users.yaml
+    - ./admins-group.yaml
+    - ./users-group.yaml
