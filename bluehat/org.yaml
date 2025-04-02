@@ -1,1 +1,18 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: bluehat-corp
+  namespace: bluehat
+spec:
+  type: organization
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: bluehat-corp-groups
+  namespace: bluehat
+spec:
+  targets:
+    - ./admins-group.yaml
+    - ./users-group.yaml
