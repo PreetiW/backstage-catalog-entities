@@ -1,1 +1,8 @@
-
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: bluehat-corp
+  namespace: bluehat
+spec:
+  targets:
+    - ./bluehat/org.yaml
