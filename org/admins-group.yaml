@@ -6,13 +6,5 @@ metadata:
   namespace: bluehat
 spec:
   type: team
-  children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: users
-  namespace: bluehat
-spec:
-  type: team
+  parent: bluehat-corp
   children: []
