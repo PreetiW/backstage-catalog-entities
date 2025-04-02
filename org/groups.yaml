@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: admins
-  namespace: dummy-corp
+  namespace: bluehat
 spec:
   type: team
   children: []
@@ -12,7 +12,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: users
-  namespace: dummy-corp
+  namespace: bluehat
 spec:
   type: team
   children: []
