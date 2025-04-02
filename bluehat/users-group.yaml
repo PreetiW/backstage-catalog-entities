@@ -3,7 +3,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: users
-  namespace: bluehat
 spec:
   type: team
   parent: bluehat-corp
@@ -13,7 +12,6 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: y0n1
-  namespace: bluehat
 spec:
   profile:
     email: y0n1@outlook.com
