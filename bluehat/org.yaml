@@ -5,7 +5,9 @@ metadata:
   namespace: bluehat
 spec:
   type: organization
-  children: []
+  children:
+    - admins
+    - users
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Location
