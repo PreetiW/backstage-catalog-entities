@@ -11,8 +11,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: y0n1
+  name: preeti.exploring.life
 spec:
   profile:
-    email: y0n1@outlook.com
+    email: preeti.exploring.life@gmail.com
   memberOf: [users]
