@@ -10,8 +10,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: jkilzi
+  name: Preeti Dev
 spec:
   profile:
-    email: jkilzi@redhat.com
+    email: preeti.dev.git@gmail.com
   memberOf: [admins]
