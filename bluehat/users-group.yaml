@@ -11,7 +11,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: preeti.exploring.life
+  name: pw-test-user
 spec:
   profile:
     email: preeti.exploring.life@gmail.com
