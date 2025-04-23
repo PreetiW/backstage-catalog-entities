@@ -10,15 +10,6 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: preetiw
-spec:
-  profile:
-    email: preeti.dev.git@gmail.com
-  memberOf: [admins]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
   name: pkliczewski
 spec:
   profile:
