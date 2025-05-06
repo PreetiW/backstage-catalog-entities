@@ -10,8 +10,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: pkliczewski
+  name: preetiw
 spec:
   profile:
-    email: piotr.kliczewski@gmail.com
+    email: preeti.dev.git@gmail.com
   memberOf: [admins]
