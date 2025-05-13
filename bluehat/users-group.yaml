@@ -11,8 +11,8 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: klusek6
+  name: pw-test-user
 spec:
   profile:
-    email: klusek6@poczta.onet.pl
+    email: preeti.exploring.life@gmail.com
   memberOf: [users]
